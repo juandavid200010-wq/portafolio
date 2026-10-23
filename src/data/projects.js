@@ -29,13 +29,14 @@ export const projects = [
     demo: null,
     repo: 'https://github.com/juandavid200010-wq/miniblog-api',
   },
-  {
+    {
     id: 'paleta-colores',
-    name: 'Paleta de colores',
-    summary: 'Proyecto del Módulo 1: paleta de colores.',
-    description: 'Descripción pendiente.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    demo: null,
+    name: 'PincelStudio',
+    summary: 'Generador de paletas de colores para diseño.',
+    description:
+      'Aplicación web para crear paletas de colores para diseños. Proyecto del Módulo 1, hecho con HTML, CSS y JavaScript.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Vercel'],
+    demo: 'https://paletacolores.vercel.app/',
     repo: 'https://github.com/juandavid200010-wq/ProyectoM1_JuanDavidCamargo',
   },
 ]
