@@ -35,7 +35,7 @@ export default function ProjectDetail() {
         ))}
       </div>
 
-      <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
         {project.demo && (
           <a
             href={project.demo}
@@ -46,15 +46,23 @@ export default function ProjectDetail() {
             Ver demo
           </a>
         )}
-        <a
-          href={project.repo}
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-lg border border-[#262a33] px-5 py-3 font-semibold hover:border-[#6c8cff]"
-        >
-          Ver código
-        </a>
+        {project.repo && (
+          <a
+            href={project.repo}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg border border-[#262a33] px-5 py-3 font-semibold hover:border-[#6c8cff]"
+          >
+            Ver código
+          </a>
+        )}
       </div>
+
+      {project.note && (
+        <p className="mt-6 max-w-2xl rounded-lg border border-[#262a33] bg-[#181b22] p-4 text-sm text-[#9aa0ae]">
+          {project.note}
+        </p>
+      )}
     </article>
   )
 }

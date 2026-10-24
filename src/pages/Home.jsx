@@ -46,9 +46,13 @@ export default function Home() {
 
         <section className="mx-auto mb-16 max-w-2xl">
           <h2 className="mb-3 text-2xl font-semibold">Sobre mí</h2>
-          <p className="text-[#9aa0ae]">
-            Economista de formación, ahora desarrollador web. Escribe aquí dos
-            líneas sobre ti y lo que buscas.
+          <p className="text-[#9aa0ae] bg-[#181b22] p-4 rounded-lg border border-[#262a33]">
+            Soy economista y desarrollador web en formación, orientado a aplicaciones web con
+            interfaz amigable para el usuario y buenas prácticas de desarrollo, con conocimientos en HTML, CSS, JavaScript, TypeScript, React y Node.js.
+            He desarrollado proyectos propios que incluyen aplicaciones con autenticación
+            y bases de datos en la nube, APIs REST con PostgreSQL y un chat con inteligencia artificial.
+            También he trabajado con Firebase y tengo conocimientos básicos de AWS.
+            Me encantaría formar parte de un equipo de desarrollo donde pueda aplicar mis habilidades y seguir aprendiendo.
           </p>
         </section>
 

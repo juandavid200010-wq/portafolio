@@ -12,7 +12,7 @@ export default function Projects() {
           <Link
             key={p.id}
             to={`/proyectos/${p.id}`}
-            className="relative block min-h-[18rem] rounded-2xl border border-[#262a33] p-2 md:rounded-3xl md:p-3"
+            className="relative block min-h-[18rem] rounded-2xl border border-[#262a33] p-2 transition-transform duration-300 ease-out hover:scale-105 md:rounded-3xl md:p-3"
           >
             <GlowingEffect />
             <div className="relative flex h-full min-h-[16rem] flex-col justify-between gap-6 overflow-hidden rounded-xl bg-[#181b22] p-8">

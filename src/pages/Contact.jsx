@@ -8,10 +8,10 @@ export default function Contact() {
       <ul className="space-y-3">
         <li>
           <a
-            href="mailto:tucorreo@ejemplo.com"
+            href="mailto:juan.david200010@gmail.com"
             className="text-[#6c8cff] hover:underline"
           >
-            tucorreo@ejemplo.com
+            juan.david200010@gmail.com
           </a>
         </li>
         <li>

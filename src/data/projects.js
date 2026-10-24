@@ -39,4 +39,15 @@ export const projects = [
     demo: 'https://paletacolores.vercel.app/',
     repo: 'https://github.com/juandavid200010-wq/ProyectoM1_JuanDavidCamargo',
   },
+  {
+    id: 'tienda-shopify',
+    name: 'Tienda de belleza (Shopify)',
+    summary: 'Tienda de productos de belleza con una sección propia en Liquid.',
+    description:
+      'Tienda de práctica creada en Shopify con productos de belleza organizados en colecciones. Incluye una sección personalizada, "Destacados", programada en Liquid, con título y colección editables desde el personalizador del tema.',
+    tech: ['Shopify', 'Liquid', 'HTML', 'CSS'],
+    demo: 'https://belleza-juandavid.myshopify.com',
+    repo: null,
+    note: 'La tienda tiene una página de contraseña. Contraseña: TU-CONTRASEÑA',
+  },
 ]
