@@ -41,6 +41,13 @@ export default function Home() {
             >
               Contacto
             </Link>
+            <a
+              href="/CV-Juan-David.pdf"
+              download
+              className="rounded-lg border border-neutral-800 px-5 py-3 font-semibold hover:border-[#6c8cff]"
+            >
+              Descargar CV
+            </a>
           </div>
         </section>
 

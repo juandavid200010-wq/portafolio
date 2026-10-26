@@ -24,6 +24,15 @@ export default function Contact() {
             GitHub
           </a>
         </li>
+        <li>
+          <a
+            href="/CV-Juan-David.pdf"
+            download
+            className="text-[#6c8cff] hover:underline"
+          >
+            Descargar hoja de vida (PDF)
+          </a>
+        </li>
       </ul>
     </section>
   )

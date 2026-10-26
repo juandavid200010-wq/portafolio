@@ -48,6 +48,6 @@ export const projects = [
     tech: ['Shopify', 'Liquid', 'HTML', 'CSS'],
     demo: 'https://belleza-juandavid.myshopify.com',
     repo: null,
-    note: 'La tienda tiene una página de contraseña. Contraseña: TU-CONTRASEÑA',
+    note: 'La tienda tiene una página de contraseña. Contraseña: eulyux ',
   },
 ]
